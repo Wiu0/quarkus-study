@@ -16,7 +16,7 @@ dependencies {
     implementation 'org.jboss.resteasy:resteasy-validator-provider'
     implementation 'javax.validation:validation-api:1.1.0.Final'
     implementation 'io.quarkus:quarkus-hibernate-validator'
-
+    implementation 'io.quarkus:quarkus-reactive-pg-client'
     compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.20'
 
     testImplementation 'io.quarkus:quarkus-junit5'
